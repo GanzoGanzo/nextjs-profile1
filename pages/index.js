@@ -40,7 +40,20 @@ export default function MyProfile() {
               Search
             </div>
           </div>
-          <div className="relative w-[80%] h-[12%] bg-sky-900 bg-opacity-30 backdrop-blur-md absolute  mt-[35%] ml-[-100%] rounded-lg flex"></div>
+          <div className="relative w-[80%] h-[12%] bg-sky-900 bg-opacity-30 backdrop-blur-md absolute  mt-[35%] ml-[-100%] rounded-lg flex">
+            <div className="relative">
+              <img src="java.gif" />
+            </div>
+            <div className="relative">
+              <img src="php.png" />
+            </div>
+            <div className="relative">
+              <img src="next.png" />
+            </div>
+            <div className="relative">
+              <img src="python.png" />
+            </div>
+          </div>
           <div className="w-1/3 h-[10%] text-s ml-[-40%] mt-[50%]">
             <div className="w-[28%] h-[10%] absolute text-3xl text-slate-600 flex justify-center items-center animate-pulse">
               Latest Job Opportunity
