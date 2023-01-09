@@ -5,11 +5,11 @@ export default function MyProfile() {
         <div className="w-[80%] h-full bg-slate-50 bg-opacity-10 backdrop-blur-md rounded-lg top-[2%] ml-[10%] flex border border-slate-50/40  ">
           <div className="w-1/3 h-[10%] text-s flex justify-between ml-[60%]">
             <div className="w-[28%] h-[35%] absolute mt-[1%] ml-[-50%] text-7xl text-slate-600 flex justify-start animate-pulse">
-              This is My First Profile Web
+              This is My Profile Card
             </div>
-            <div className="w-[28%] h-[35%] absolute mt-[18%] ml-[-50%] text-lg  text-slate-600 flex justify-start">
-              My name is Ganzorig.My name is Ganzorig.My name is Ganzorig.My
-              name is Ganzorig.My name is Ganzorig.
+            <div className="w-[28%] h-[35%] absolute mt-[15%] ml-[-50%] text-lg  text-slate-600 flex justify-start">
+              My name is SuperMario. I am developer I am developer I am
+              developer
             </div>
             <div className="z-0 bg-opacity-10  text-slate-600 hover:text-lg hover:text-slate-400">
               About
@@ -40,17 +40,17 @@ export default function MyProfile() {
               Search
             </div>
           </div>
-          <div className="relative w-[80%] h-[12%] bg-sky-900 bg-opacity-30 backdrop-blur-md absolute  mt-[35%] ml-[-100%] rounded-lg flex">
-            <div className="relative">
-              <img src="java.gif" />
+          <div className="relative w-[80%] h-[12%] bg-sky-900 bg-opacity-30 backdrop-blur-md mt-[35%] ml-[-100%] rounded-lg flex gap-4">
+            <div className="w-full h-full flex justify-center">
+              <img src="java.png" />
             </div>
-            <div className="relative">
+            <div className="w-full h-full flex justify-center">
               <img src="php.png" />
             </div>
-            <div className="relative">
+            <div className="w-full h-full flex justify-center">
               <img src="next.png" />
             </div>
-            <div className="relative">
+            <div className="w-full h-full flex justify-center">
               <img src="python.png" />
             </div>
           </div>
